@@ -1,7 +1,7 @@
-import React, {useCallback} from 'react'
+import React, { useCallback } from 'react'
 import '../css/index.css'
-import {useDispatch, useSelector} from "react-redux";
-import {removeTodo, toggleTodo} from "../reducers/todosReducers";
+import { useDispatch, useSelector } from "react-redux"
+import { removeTodo, toggleTodo } from "../reducers/todosReducers"
 
 const Todo = () => {
     const todos = useSelector(state => state.todosReducers)
